@@ -134,27 +134,25 @@ li{
 
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 760px) {
    .card-content{
-   display: block;
+   display: flex;
+   flex-direction: column-reverse;
     width: 80%;
     height: 80%;
-    justify-content: center;
     margin: 0 auto;
+    padding-left: 2.5em;
     
   }
 
-  /*
-  .card-left{
-width: 380px;
+  nav{
+    padding: 0;
+    margin: 0;
   }
-  .card-right{
-  }
-*/
   img{
     width: 150px;
   } 
   .card-button{
-    flex-direction: column-reverse;
+    margin-top: 1.5em;
   }
 }
