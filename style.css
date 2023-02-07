@@ -67,14 +67,17 @@ body{
    justify-content: space-evenly;
    justify-content: center;
    width: 100%;
+   padding-top: 2em;
       
 }
 img{
-    padding-left: 5em;
+    margin-left: 2em;
+    padding-top: 1em;
+    padding-right: 1em;
     color: #F6ECE3;
     height: 70px;
-    width: 150px;
-    max-width: 100%;
+    width: 160px;
+    max-width: 110%;
 }
 .card-para{
     padding-bottom: 0.1em;
@@ -82,6 +85,8 @@ img{
 width: 200%;
 max-width: 100%;
 margin-bottom: 1em;
+text-align: center;
+text-indent: 20px;
 }
 
 .card-left h3{
@@ -140,14 +145,13 @@ li{
     width: 80%;
     height: 80%;
     margin: 0 auto;
-    padding-left: 2.5em;
-        padding-top: 1em;
+   
     margin: 0.7em;
-
+text-align: center;
   }
 
   .card-para{
-    padding-left: 2.5em;
+    padding-left: 1em;
     padding-bottom: 0.1em;
     font-size: 1em;
 
@@ -162,8 +166,9 @@ li{
 }
 
 .card-para{
-    padding-left: 1.4em;
+    padding-left: 1.5em;
     padding-bottom: 0.6em;
+    font-size: 16px;
 }
 
   nav{
@@ -176,14 +181,14 @@ li{
     padding-right: 2em;
 }
   img{
-    max-width: 80%;
+    max-width: 95%;
     padding-left: 1em;
     padding-bottom: 0.7em;
   } 
   .card-button{
-    padding-top: 1.7em;
-    margin-left: 2em;
-    padding: 1.6em;
+    padding-top: 1.4em;
+    margin-left: 4em;
+    padding: 1.3em;
   }
 
   .logo{
