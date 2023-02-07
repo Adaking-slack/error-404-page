@@ -180,8 +180,12 @@ li{
   nav{
     padding: 0;
     margin: 0;
-    font-size: 0.8em;
+    font-size: 0.6em;
   }
+  .right-nav{
+    display: flex;
+    padding-right: 2em;
+}
   img{
     max-width: 80%;
     padding-left: 1em;
@@ -192,4 +196,9 @@ li{
     margin-left: 2em;
     padding: 1.6em;
   }
+
+  .logo{
+    padding-left: 2.4em;
+
+}
 }
