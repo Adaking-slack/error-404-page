@@ -64,59 +64,48 @@ body{
 
 .card-content{
     display: flex;
-        justify-content: space-evenly;
-        justify-content: center;
-    max-width: 100%;
-    
+   justify-content: space-evenly;
+   justify-content: center;
+   width: 100%;
+      
 }
-
-.card-left{
-    
-    font-size: 1.4em;
-    margin-bottom: 0.5em;
-    
+img{
+    padding-left: 5em;
+    color: #F6ECE3;
+    height: 70px;
+    width: 150px;
+    max-width: 100%;
+}
+.card-para{
+    padding-bottom: 0.1em;
+    font-size: em;
+width: 200%;
+max-width: 100%;
+margin-bottom: 1em;
 }
 
 .card-left h3{
     font-size: 3.2em;
     font-weight: lighter;
     padding-bottom: 0.1em;
-    margin-left: 0.9em;
-
-}
-
-.card-para{
-    padding-left: 3em;
-    padding-bottom: 0.1em;
-    font-size: 1em;
+    padding-left: 0.6em;
 
 }
 
 .card-button{
-    padding: 1.1em;
-        background-color: #014A1F;
-    
+    padding: 1em;
+    margin-left: 1.3em;
+    background-color: #014A1F;
     color: white;
     border: none;
     border-radius: 35px;
-    font-size: 12px;
-    margin-left: 6em;
-
-    margin-top: 1.6em;
+    font-size: 10px;
+   width: 60%;
 }
 
 
-.card-right{
-    width: 250px;
-} 
+ 
 
-img{
-    max-height: 180px;
-    padding-left: 5em;
-    color: #F6ECE3;
-    width: 130px;
-
-}
 
 nav{
     padding: 0.5em;
@@ -144,7 +133,7 @@ li{
 
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 600px) {
    .card-content{
    display: flex;
    flex-direction: column-reverse;
@@ -152,7 +141,7 @@ li{
     height: 80%;
     margin: 0 auto;
     padding-left: 2.5em;
-        padding-top: 1.3em;
+        padding-top: 1em;
     margin: 0.7em;
 
   }
